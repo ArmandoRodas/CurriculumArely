@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
     return;
   }
 
-  let light = false;
+  let light = true;
 
   function setTheme() {
     document.documentElement.style.setProperty("--bg", light ? "#f3f6ff" : "#0f172a");
